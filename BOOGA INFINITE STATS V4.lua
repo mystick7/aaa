@@ -2,11 +2,11 @@ Settings = {
     PointSlot = "Slot1"; -- Slot that will receive points
     NamekSlot = "Slot2"; -- Namekian slot that gives points
     WaitTimeSlotChange = 0.3; -- less = faster (Recommended 0.1 - 0.3) Wait time when talking to slot changer
-    WaitTimeTalk = 0.1; -- (reccommended 0.1 - 0.3 ) Wait time when talking to level NPCs
+    WaitTimeTalk = 0.8; -- (reccommended 0.1 - 0.3 ) Wait time when talking to level NPCs
     PersonLimit = 50; -- Person limit for auto rejoiner
     ExtraTime = 0; -- If you need more load time increase the value
     CharacterSlotChangerDelay = 0.5; -- Delay to talk to character slot changer when it finishes talking to kami (0.3 - 0.5 recommended)
-    KamiChatDelay = 0.800; -- Delay talking to kami (0.270 - 0.450 recommended)
+    KamiChatDelay = 0.600; -- Delay talking to kami (0.270 - 0.450 recommended)
     MaxPoints = math.huge; -- math.huge means infinite
     AutoStats = true; -- Auto upgrades a stat
     Stat = "Phys-Damage"; -- Health-Max,Ki-Max,Phys-Damage,Phys-Resist,Ki-Damage,Ki-Resist,Speed
